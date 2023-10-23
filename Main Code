@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import numpy as np
-import yfinance as yf
+import yfinance as yf #This is the main library that is used for the data Scraping
 
 stocks = 'TSLA'
 start_date = '2021-11-10'
