@@ -5,7 +5,7 @@ import numpy as np
 import yfinance as yf
 
 stocks = 'TSLA'
-start_date = '2020-11-10'
+start_date = '2021-11-10'
 
 data = yf.download(stocks, start=start_date)['Close']
 x_values = data.index
